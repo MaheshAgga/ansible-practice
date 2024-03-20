@@ -1,5 +1,5 @@
 - name: palybook
   hosts: web
   tasks: 
-  - name: ping the server
-    ansible.builti.ping:
+- name: ping the server
+  ansible.builti.ping:
