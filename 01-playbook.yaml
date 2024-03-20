@@ -2,4 +2,4 @@
   hosts: web
   tasks: 
   - name: ping the server
-      ansible.builti.ping:
+      ansible.builtin.ping:
