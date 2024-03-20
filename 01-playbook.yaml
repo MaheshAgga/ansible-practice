@@ -1,0 +1,5 @@
+- name: palybook
+  hosts:
+  tasks: 
+  - name: ping the server
+    ansible.builti.ping:
