@@ -1,7 +1,10 @@
 - name: Variables
   hosts: localhost
-  vars: 
+  vars:
+    course: DevOps
+    Trainer: Lord SRI SRI RadhaKrishna
+    Duration: 110 HRS
   tasks:
   - name: check variable
     ansible.builtin.debug:
-      msg: "HareKrishna this is DevOps, Trainer Lord SRI SRI RadhaKrishna,110 HRS"
+      msg: "HareKrishna this is {{DevOps}}, Trainer {{Trainer}},Duration is {{Duration}}"
