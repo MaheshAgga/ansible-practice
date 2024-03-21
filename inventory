@@ -1,5 +1,14 @@
 192.187.56.20
 192.187.56.30
+
+[localhost]
+localhost
+
+[localhost:vars]
+Course= "DevOps from inventory"
+Trainer= "Lord Sri RadhaKrishna"
+Duration= "110HRS"
+
 [web]
 35.170.185.89
 
