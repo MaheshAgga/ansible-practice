@@ -1,0 +1,7 @@
+- name: Variables
+  hosts: localhost
+  vars: 
+  tasks:
+  - name: check variable
+    ansible.builtin.debug:
+      msg: "HareKrishna this is DevOps, Trainer Lord SRI SRI RadhaKrishna,110 HRS"
