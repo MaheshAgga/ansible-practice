@@ -1,0 +1,9 @@
+- name: Variables
+  hosts: localhost
+  vars_files:
+  - variables.yaml
+    
+  tasks:
+  - name: check variable
+    ansible.builtin.debug:
+      msg: "HareKrishna this is wonderful {{Course}}, Trainer {{Trainer}},Duration is {{Duration}}"
