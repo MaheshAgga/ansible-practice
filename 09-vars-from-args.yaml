@@ -1,0 +1,6 @@
+- name: vars from play-1
+  hosts: localhost
+  tasks:
+  - name: check vars
+    ansible.builtin.debug:
+      msg: "HareKrishna {{Person}}, chant {{HareRama}}"
