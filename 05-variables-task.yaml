@@ -1,0 +1,11 @@
+- name: task level variables
+  hosts: localhost
+  vars:
+    Course: DevOps
+    Trainer: Lord Sri RadhaKrishna
+    Duration: 110HRS
+  tasks:
+    Course: DevOps with AWS
+  - name: check variable
+    ansible.builtin.debug:
+     msg: "HareRama this is {{Course}}, Trainer is {{Trainer}},Duration is {{Duration}}"
