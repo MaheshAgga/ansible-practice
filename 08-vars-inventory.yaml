@@ -1,0 +1,6 @@
+- name: PLAY-1
+  hosts: localhost
+  tasks:
+  - name: understing inventory
+    ansible.builtin.debug:
+     msg: "HareKrishna i am learning {{Course}},Trainer is {{Trainer}},Duration is {{Duration}}"
