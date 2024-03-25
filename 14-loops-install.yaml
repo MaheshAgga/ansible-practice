@@ -3,7 +3,7 @@
   become: yes
   tasks: 
   - name: install some packages
-    ansible.builti.debug: 
+    ansible.builtin.debug: 
       name: "{{item}}"
     loop:
     - git
