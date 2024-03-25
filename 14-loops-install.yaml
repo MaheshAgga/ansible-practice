@@ -1,0 +1,11 @@
+- name: loops
+  hosts: localhost
+  become: yes
+  tasks: 
+  - name: install some packages
+    ansible.builti.debug: 
+      name: "{{item}}"
+    loop:
+    - git
+    - postfix
+    - mysql
